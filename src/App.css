@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.header{
+  background: cyan;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header a{
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+#studentsComponent{
+  padding: 1rem;
+}
+#studentsComponent button a{
+  text-decoration: none;
+  color: black;
+}
+
+#studentsComponent button{
+  margin-top: 1rem;
+  width: 13rem;
+  height: 3rem;
+  border-radius: 30px;
+  font-size: 1.4rem;
+  background: rgb(132, 224, 255);
+  
+}
+#studentsDesc button{
+  margin-left: 5rem;
+  height: 3rem;
+  width: 12rem;
+  font-size: 1.5rem;
+  background: greenyellow;
+  cursor: pointer;
+  /* border-radius: 20px; */
+}
+#studentsDesc .cancel-button{
+  background: white;
+  
+}
+#studentsDesc form {
+  margin-top: 10rem;
+}
+
+#studentsDesc .flex{
+  margin:0 0 4rem 8rem;
+  gap: 14rem;
+  justify-content: left;
+}
+
+.input-container>div{
+  width: 20rem;
+}
